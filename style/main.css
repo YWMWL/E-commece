@@ -1,15 +1,39 @@
 /* CSS Document */
 
-@charset "utf-8";
 
-/*公用*/
+/*???*/
 .com_width{
 	width: 1000px;
-	margin: 0 auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 
+.left_area{
+	float: left;
+}
+.right_area{
+	float: right;
+}
+
+/*topbar*/
 .topbar{
 	height: 32px;
 	background-color: #f7f7f7;
+	line-height: 32px;
 }
-.top 
+.collection{
+	background: url(../images/icon/collection.png) left center no-repeat;
+	padding: 19px;
+	font-weight: bold;
+}
+.topbar a:hover{color:blue;}
+
+/*logobar*/
+.logobar{
+	height: 86px;
+	background-color: #1D7AD9;
+}
+.logo{
+	padding-left: 40px;
+	padding-top: 12px;
+}
