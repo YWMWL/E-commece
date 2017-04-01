@@ -1,0 +1,15 @@
+/* CSS Document */
+
+@charset "utf-8";
+
+/*公用*/
+.com_width{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.topbar{
+	height: 32px;
+	background-color: #f7f7f7;
+}
+.top 
