@@ -37,3 +37,64 @@
 	padding-left: 40px;
 	padding-top: 12px;
 }
+
+/*search*/
+.search_box{
+	width: 430px;
+	padding-top: 25px;
+	padding-left: 185px;
+}
+.search_text{
+	width: 350px;
+	height: 35px;
+	line-height: 35px\9;   /* \9代表所有IE浏览器 */
+	padding: 0 5px;
+	background-color: #fff;
+}
+.search_btn{
+	width: 70px;
+	height: 35px;
+	background-color: #ff8c00;
+	font-size: 14px;
+	font-family: "Microsoft Yahei","微软雅黑";
+	color: #fff;
+}
+
+/*shopcar*/
+.shopcar{
+	width: 145px;
+	height: 35px;
+	background-color: #ff8c00;
+	margin-top: 25px;
+	font: 14px/36px "Microsoft Yahei","微软雅黑";
+	color: #fff;
+	margin-right: 59px;
+}
+.shop_text{
+	height: 100%;
+	width: 90px;
+	border-right: #e27a00 solid 1px;
+	background: url(../images/icon/shopicon.jpg) 10px center no-repeat;
+	text-indent: 40px;
+}
+.shop_num{
+	width: 26px;
+	height: 35px;
+	background: url(../images/icon/arrows.jpg) right center no-repeat;
+	text-align: right;
+	padding-right: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
