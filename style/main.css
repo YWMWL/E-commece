@@ -425,6 +425,10 @@ footer img{
 .products .right_area{
 	width: 810px;
 }
+.products .item{
+	width: 25%;
+	margin-bottom: 10px;
+}
 
 
 /*产品分类导航*/
@@ -455,5 +459,95 @@ footer img{
 }
 .navcont_list li{
 	width: 50%;
+	float: left;
+}
+.vertical li{
+	width: auto;
+	padding-left: 15px;
+	float: none;
+}
+.vertical .nav_title,.vertical .nav_cont h3{
+	font-family: "Microsoft Yahei","微软雅黑";
+	font-size: 14px;
+}
+
+/*标题*/
+.products_title{
+	height: 34px;
+	border-bottom: #ccc solid 2px;
+}
+.products_title h3{
+	width: 180px;
+	border-bottom: #096DBA solid 2px;
+	height: 34px;
+	left: 34px;
+	padding-left: 10px;
+}
+
+/*商品*/
+.item{
+	float: left; 
+}
+.item_cont{
+	padding: 0 15px;
+}
+.img_item{
+	height: 170px;
+	text-align: center;
+}
+.img_item img{
+	height: 170px;
+}
+.item p{
+	line-height: 20px;
+}
+.item a{
+	color: #000;
+}
+.item a:hover{
+	text-decoration: underline;
+}
+.money{
+	color: #d4105a;
+	font-weight: bold;
+	padding-top: 10px;
+}
+.star{
+	width: 13px;
+	height: 12px;
+	overflow: hidden;
+	background: url(../images/icon/star.jpg) 0 0 no-repeat;
+	display: inline-block;
+	
+}
+
+/*筛选*/
+.screening{
+
+}
+.screening a{
+	padding: 2px;	
+}
+.screening dt{
+	line-height: 32px;
+	width: 74px;
+	text-align: right;
+	float: left;
+	margin-right: 42px;
+}
+.limit{
+	width: 55px;
+	float: left;
+	line-height: 32px;
+}
+.screening .active{
+	background-color: #1d7ad9;
+	color: #fff;
+}
+.screening_list{
+	line-height: 32px;
+}
+.screening_list li{
+	width: 20%;
 	float: left;
 }
